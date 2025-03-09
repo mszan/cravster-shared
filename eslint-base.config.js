@@ -1,4 +1,4 @@
-export default [
+const config = [
   {
     root: true,
     parser: "@typescript-eslint/parser",
@@ -36,3 +36,5 @@ export default [
     ],
   },
 ];
+
+export default config;

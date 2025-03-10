@@ -1,0 +1,20 @@
+{
+    "name": "@cravster/eslint-config",
+    "version": "0.0.1",
+    "description": "cravster eslint config",
+    "type": "module",
+    "exports": "./index.js",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^8.26.1",
+        "@typescript-eslint/parser": "^8.26.1",
+        "eslint-config-prettier": "^10.1.1",
+        "eslint-plugin-prettier": "^5.2.3"
+    },
+    "peerDependencies": {
+        "eslint": ">=9.0.0"
+    }
+}
